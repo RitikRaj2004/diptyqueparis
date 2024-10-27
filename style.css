@@ -1,0 +1,800 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ html,body{
+width: 100%;
+height: 100%;
+}
+
+
+
+
+    body {
+        font-family: 'EB Garamond', serif;
+    }
+
+
+main{
+    height: 100vh;
+    /* background-color: red; */
+
+}
+.header{
+    background-color:#f8f8f8;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close{
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 20px;
+}
+.header2{
+    height: 13vh;
+    /* background-color: red;    */
+    
+}
+.input{
+     margin-left: 5%;
+     margin-top: 1%;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     /* background-color: yellow; */
+    
+}
+.search{
+    position: absolute;
+    padding-left: 3%;
+    padding-top: 1%;
+    font-size: 20px;
+    /* background-color: red; */
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoimg{
+    /* background-color: red; */
+    height: 70px;
+    width: 150px;
+    position: absolute;
+    top: 7%;
+}
+.profile{
+    display: flex;
+    justify-content: end;
+    gap: 2%;
+    margin-left: 5%;
+    /* background-color: greenyellow; */
+}
+.profilelogo{
+    font-size: 23px;
+    position: absolute;
+    right: 8%;
+
+}
+.baglogo{
+    font-size: 23px;
+    position: absolute;
+    right: 5%;
+
+}
+.header3{
+    height: 10vh;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page1{ height: 71%;
+    width: 100%;
+    /* background-color: palevioletred; */
+    display: flex;
+    
+
+}
+.vid1{
+
+    width: 80%;
+    margin-left: 2%;
+}
+.right{
+    /* background-color:royalblue; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+.firsth1{
+padding-bottom: 50%;
+padding-right: 35%;
+}
+.firstp{
+    padding-bottom:2%;
+    position: absolute;
+}
+.firstbutton{
+    position: absolute;
+    right:24%;
+    top:75%;
+    padding: 15px 20px;
+    border:1px solid black;
+    border-bottom:3px solid black;
+}
+.page2{
+    /* background-color: rebeccapurple; */
+    height: 30%;
+    width: 100%;
+
+}
+.page2head{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page2para{
+    line-height: 150%;
+}
+.page2heading{
+
+    font-size: 40px;
+    text-transform: uppercase;
+    /* line-height: 100%; */
+}
+.page3{
+    height: 115%;
+    width: 100%;
+    /* background: palevioletred; */
+    display: flex;
+    align-items: center;
+
+}
+.container1{
+    height: 100%;
+    width: 25%;
+    /* background: yellow; */
+}
+.container2{
+    height: 100%;
+    width: 25%;
+    /* background: rgb(157, 70, 234); */
+}
+.container3{
+    height: 100%;
+    width: 25%;
+    /* background: rgb(146, 213, 254); */
+}
+.container4{
+    height: 100%;
+    width: 25%;
+    /* background: rgb(9, 9, 110); */
+}
+.sapin{
+    /* height: 20%; */
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.orpheno{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Friandise{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Fleur{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgcontent , .imgcontent2, .imgcontent3 , .imgcontent4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+.imgcontent{
+    margin-left: 3%;
+}
+.imgcontent4{
+    margin-left: 5%;
+}
+.buynow1{
+    padding: 10px 90px;
+    font-weight: 700;
+}
+.add1{
+    padding: 10px 99px;
+    font-weight: 700;
+}
+
+.buynow1{
+    color: white;
+    background-color:black;
+    border: none;
+}
+.add1{
+    color: white;
+    background-color:black;
+    border: none;
+}
+.imgcontent2para , .imgcontent2para2 ,.imgcontent2para3 , .imgcontent2para4{
+    margin-left: 2%;
+}
+.sapinhead , .orpheonhead , .Friandise , .fleur {
+    font-size: 30px;
+}
+.page4{
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+.page4container{
+    height: 100%;
+    width: 80%;
+    /* background-color: darkred; */
+    display: flex;
+    
+}
+ .leftpage4{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+}
+.rightpage4{
+    height: 100%;
+    width: 50%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; align-items: center;
+} 
+.page4vid{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.right4content h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+}
+.right4p{
+    padding-bottom: 10%;
+    
+
+}
+.right4p2{
+    padding-bottom:30%;
+    padding-left: 7%;
+}
+.page4button{
+    margin-left: 40%;
+   position: absolute;
+   left: 24%;
+   top: 315%;
+   padding: 10px 30px;
+   font-weight: 700;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 1px solid black;
+   background-color: transparent;
+}
+
+.page5{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.page5container{
+    
+        height: 100%;
+        width: 80%;
+        /* background-color:yellow; */
+        display: flex;
+        
+}
+.leftpage5{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    background-color: #f8f8f8;
+    display: flex;
+    
+   
+}
+.rightpage5{
+    height: 100%;
+    width: 50%;
+  
+} 
+.leftpage5content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftpage5content h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    font-size: 50px;
+    /* background-color: green; */
+
+   
+}
+.leftpage5 p{
+    padding-bottom: 10%;
+    padding-left: 5%;
+    font-size: 15px;
+    /* background-color: gray; */
+}
+
+.dollar{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+.page5bag{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+.rightpage5 img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;    
+}
+
+.page6{
+    /* background-color: rebeccapurple; */
+    height: 30%;
+    width: 100%;
+
+}
+.page6head{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page6para{
+    line-height: 150%;
+    font-weight: 400;
+}
+.page6heading{
+
+    font-size: 40px;
+    text-transform: uppercase;
+    /* line-height: 100%; */
+}
+.page3{
+    height: 115%;
+    width: 100%;
+    /* background: palevioletred; */
+    display: flex;
+    align-items: center;
+
+}
+.container1{
+    height: 100%;
+    width: 25%;
+    /* background: yellow; */
+}
+.container2{
+    height: 100%;
+    width: 25%;
+    /* background: rgb(157, 70, 234); */
+}
+.container3{
+    height: 100%;
+    width: 25%;
+    /* background: rgb(146, 213, 254); */
+}
+.container4{
+    height: 100%;
+    width: 25%;
+    /* background: rgb(9, 9, 110); */
+}
+.sapin{
+    /* height: 20%; */
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.orpheno{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Friandise{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Fleur{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgcontent , .imgcontent2, .imgcontent3 , .imgcontent4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+.imgcontent{
+    margin-left: 3%;
+}
+.imgcontent4{
+    margin-left: 5%;
+}
+.buynow1{
+    padding: 10px 90px;
+    font-weight: 700;
+}
+.add1{
+    padding: 10px 99px;
+    font-weight: 700;
+}
+
+.buynow1{
+    color: white;
+    background-color:black;
+    border: none;
+}
+.add1{
+    color: white;
+    background-color:black;
+    border: none;
+}
+.imgcontent2para , .imgcontent2para2 ,.imgcontent2para3 , .imgcontent2para4{
+    margin-left: 2%;
+}
+.sapinhead , .orpheonhead , .Friandise , .fleur {
+    font-size: 30px;
+}
+.page7{
+    height: 80%;
+    width: 100%;
+    /* background-color:palevioletred; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container7{
+    height: 100%;
+    width: 80%;
+    /* background-color: yellow; */
+    display: flex;
+
+}
+.left7content{
+    height: 100%;
+    width: 40%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left7content h1{
+    padding-bottom: 6%;
+    text-transform: uppercase;
+}
+.left7content p{
+    padding-bottom: 8%;
+    font-size: 12px;
+}
+.discover{
+    padding: 10px 30px;
+    margin-bottom: 8%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    background-color:transparent;
+   
+    
+    
+    
+}
+.page7dollar{
+    padding: 10px 30px;
+    /* margin-bottom: 20%; */
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+.right7{
+    height: 100%;
+    width: 60%;
+    /* background-color: blue; */
+}
+.page7img{
+    height: 100%;
+    width: 100%;
+}
+
+.page7img1{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.page8{
+    height: 120%;
+    /* width: 100%;background-color:red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page8head{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.container8{
+    height: 100%;
+    width: 90%;
+    /* background-color:green; */
+    display: flex;
+}
+.left8{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+.right8{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(35, 191, 218); */
+}
+.vidcontainer{
+    height: 100%;
+    width: 100%;
+}
+.vidcontainer video{
+    height: 100%;
+    width: 100%;
+
+}
+.vid2container{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.vid2container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.page9{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+.page9head{
+    height: 30%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content9{
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.page9containers{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    height: 100%;
+    width: 100%;
+}
+.page9container1{
+    height: 70%;
+    width: 22%;
+    /* background-color: blue; */
+
+}
+.page9container2{
+    height: 70%;
+    width: 25%;
+    /* background-color: rgb(23, 202, 225); */
+    
+}
+.page9container3{
+    height:70%;
+    width: 25%;
+    /* background-color: rgb(15, 202, 121); */
+    
+}
+.page9container4{
+    height: 70%;
+    width: 25%;
+    /* background-color: rgb(222, 175, 19); */
+    
+}
+.page9img1{
+    height: 90%;
+    width: 100%;
+
+}
+.page9img2{
+    height: 90%;
+    width: 100%;
+    
+}
+.page9img3{
+    height: 90%;
+    width: 100%;
+    
+}
+.page9img4{
+    height: 90%;
+    width: 100%;
+    
+}
+.page9content4 , .page9content3 , .page9content2 , .page9content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hr1{
+    margin-top: 1%;
+    height: 2px; /* Sets the thickness to 4 pixels */
+    background-color: black; /* Changes the color */
+    border: none; /* Removes any default border */
+}
+.page10{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containers10{
+    height: 100%;
+    width: 90%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page10container1{
+    height: 100%;
+    width: 23%;
+    /* background-color: blue; */
+}
+.page10container1content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30%;
+}
+.page10p1{
+    margin-left: 10%;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.page10container2{
+    height: 100%;
+    width: 23%;
+    /* background-color: rgb(135, 22, 103); */
+}
+.page10container2content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30%;
+}
+.page10p2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.page10container3{
+    height: 100%;
+    width: 23%;
+    /* background-color: rgb(28, 216, 216); */
+}
+.page10container3content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30%;
+
+}
+.page10p3{
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.page10container4{
+    height: 100%;
+    width: 23%;
+    /* background-color: rgb(53, 249, 204); */
+}
+.page10p4{
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.page10container4content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30%;
+}
+.ritik{
+    text-decoration: underline;
+}
